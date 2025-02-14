@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            background-image: url(hamburger.jpg);
+            /* flex-basis: 100%; */
+            /* height: 100vh; */
+        }
+        img{
+            width: 100%;
+        }
+        .item{
+          display:flex ;
+          gap:40px;
+        }
+        .item1{
+            flex-basis: 20px;
+        }
+        #picture{
+            width: 500px;
+        }
+        .item2{
+            flex-basis: 600px;
+            line-height: 2;
+            
+        }
+        .h1{
+            
+            word-spacing: 2px;
+            
+        }
+        .main{
+            letter-spacing: 5px;
+        }
+        .task{
+            display: flex;
+            gap: 200px;
+        }
+        #table{
+            margin-top: 80px;
+            width: 600px;
+            height: 600px;
+            
+        }
+        .item3{
+
+            /* flex-basis: 600px; */
+            line-height: 3;
+            letter-spacing: 1px;
+        }
+        .bold{
+            font-weight: 600;
+        }
+        .color{
+          color: lightslategray;
+          
+        }
+        input{
+            width: 95vw;
+            height: 8vh;
+        } 
+        button{
+            width: 20vw;
+            height: 5vh;
+            background: lightslategrey;
+        }
+        footer{
+            background-color: lightsteelblue;
+            height: 90px;
+        }
+        .last{
+            margin-top: 80px;
+            padding-top: 30px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:gray;
+            /* color: white; */
+            
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            gap: 20px;
+            
+        }
+        
+    </style>
+</head>
+ <body>
+    <div>
+        <nav>
+            Gourmet au Catering
+            <ul>
+           
+            <li>About</li>
+            <li>Menu</li>
+            <li>Contact</li>
+        </ul>
+        </nav>
+    </div>
+    <div class="container"> 
+        <!-- <img src="hamburger.jpg" alt="">-->
+         <h1>Le Catering</h1>
+    </div><br><br><br>
+    <div class="item"> 
+    <div class="item1">
+        <img src="tablesetting2.jpg" alt="" id="picture">
+    </div>
+    <div class="item2">
+    <center><h1>About Catering</h1></center>
+    <center><p class="main">Tradition since 1889</p></center>
+        <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.<br><br>
+        
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.    </p>
+        </div>
+        </div><hr>
+    <div class="task">
+        <div class="item3">
+           <center> <h1>Our Menu</h1></center>
+        <p class="bold">Bread Basket</p>
+           <p> Assortment of fresh baked fruit breads and muffins 5.50</p>
+            
+            
+           <p class="bold"> Honey Almond Granola with Fruits</p>
+           <p> Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            
+            
+           <p class="bold"> Belgian Waffle</p>
+           <p> Vanilla flavored batter with malted flour 7.50</p>
+            
+            
+            <p class="bold">Scrambled eggs</p>
+             <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+            
+            
+             <p class="bold">Blueberry Pancakes</p>
+            <p>With syrup, butter and lots of berries 8.50</p>
+        
+        </div>
+                <img src="tablesetting.jpg" alt="" id="table">
+        
+    </div><hr>
+    <h1>Contacts</h1>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="color">Catering Service, 42nd Living St, 43043 New York, NY</p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    <input type="text" id="" name="" placeholder="Name"><br><br>
+    <input type="Number" id="" name="" placeholder="How many people"><br><br>
+    <input type="date" id="" name="" placeholder="11/16/2020 08:00PM"><br><br>
+    <input type="text" id="" name="" placeholder="Message/Special requirement"><br><br>
+    <button type="SEND MESSAGE">SEND MESSAGE</button>
+    <footer>
+        <center>
+        <div class="last">Powered by CSS</div></center>
+    </footer>
+</body>
+</html>
